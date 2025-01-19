@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19a2ae;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 45vw bottom 50vh, left 45vw top 50vh;
+}
+
+.bigbox{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.underbox{
+    max-width: 420px;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 1rem;    
+}
+
+.text img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: -52px;
+    margin-bottom: 10px;
+}
+.text h2{
+    color: #2d3248;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+
+h2 span{
+    color: #6a6f81;
+    font-weight: 400;
+
+}
+
+.text p{
+    color: #6a6f81;
+    font-size: 14px;
+}
+
+.bottombox{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(225, 221, 221);
+    padding: 30px 50px;   
+    margin-top: 20px;
+}
+
+.bottombox p.A{
+    font-size: 18px;
+    font-weight: 800px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+# 03_Profile-card-Component
+# 03_Profile-card-Component
